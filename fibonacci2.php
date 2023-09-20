@@ -1,5 +1,5 @@
 <?php
-function printFibonacci($n) {
+function Fibonacci($n) {
     $first = 0;
     $second = 1;
     
@@ -13,5 +13,5 @@ function printFibonacci($n) {
 
 $n = 15;
 echo "Fibonacci Series: ";
-printFibonacci($n);
+Fibonacci($n);
 ?>
